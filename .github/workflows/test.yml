@@ -18,4 +18,4 @@ jobs:
             cd bin/make
             make
     - name: execute
-      run: ./Release/sobel
+      run: ./bin/make/Release/sobel
