@@ -16,9 +16,9 @@ jobs:
     - name : Build Cmake
       run : ./CMakeGCC.sh
     - name: branche
-      run: cd ./bin/make
+      run: cd bin/make
     - name: make
-      run: make all
+      run: make
     - name: branche2
       run: cd Release
     - name: execute
