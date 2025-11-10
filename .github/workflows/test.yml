@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name : Install Lib
-      run: sudo apt-get install libsdl2 libsdl2-ttf
+      run: sudo apt-get install libsdl2-dev libsdl2-ttf-dev
     - name : Build Cmake
       run : ./CMakeGCC.sh
     - name: branche
