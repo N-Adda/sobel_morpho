@@ -15,11 +15,7 @@ jobs:
       run: sudo apt-get install libsdl2-dev libsdl2-ttf-dev
     - name : Build Cmake
       run : ./CMakeGCC.sh
-    - name: branche
-      run: cd bin/make
-    - name: make
-      run: make
-    - name: branche2
-      run: cd Release
+            cd bin/make
+            make
     - name: execute
-      run: ./sobel
+      run: ./Release/sobel
