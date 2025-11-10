@@ -18,4 +18,5 @@ jobs:
             cd bin/make
             make
     - name: execute
-      run: ./bin/make/Release/sobel
+      run: cd bin/make/Release
+           ./sobel
