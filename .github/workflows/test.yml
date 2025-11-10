@@ -18,7 +18,7 @@ jobs:
     - name: branche
       run: cd ./bin/make
     - name: make
-      run: make
+      run: make all
     - name: branche2
       run: cd Release
     - name: execute
