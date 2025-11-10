@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: branche
-      run: cd./bin/make
+      run: cd ./bin/make
     - name: make
       run: make
     - name: branche2
