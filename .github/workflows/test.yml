@@ -20,3 +20,4 @@ jobs:
     - name: execute
       run: cd bin/make/Release
            ./sobel
+      
